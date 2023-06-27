@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Frontend() {
   return (
     <>
-      <div className="bg-cyan-700 text-white w-[100vw] h-[100vh] flex flex-col items-center justify-center relative">
+      <div className="bg-cyan-500 text-white w-[100vw] h-[100vh] flex flex-col items-center justify-center relative">
         <Link href="/">
           <div className= "flex absolute top-0 left-[95vw] w-[5vw] h-[100vh] group items-center justify-end">
             <h1 className="pr-4 text-1xl group-hover:text-2xl ease-in-out duration-300">Voltar</h1>
