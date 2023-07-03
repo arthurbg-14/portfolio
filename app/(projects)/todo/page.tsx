@@ -1,10 +1,10 @@
 import Project from "./../Project-skeleton"
 import Icon from "./../../../components/Icon"
-import Link from "next/link"
 
 export default function Page(){
 	return <>	
 	<Project 
+	tittle="ToDo App with Api - "
 	iFramePage="https://todo-silk-one.vercel.app/"
 	projectUrl="https://todo-silk-one.vercel.app/"
 	previousPage="/frontend"

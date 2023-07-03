@@ -4,6 +4,7 @@ import Icon from "./../../../components/Icon"
 export default function Page(){
 	return <>
 	<Project 
+	tittle="ToDo App with Api - "
 	iFramePage="https://todo-silk-one.vercel.app/docs"
 	projectUrl="https://todo-silk-one.vercel.app/docs"
 	previousPage="/backend"
