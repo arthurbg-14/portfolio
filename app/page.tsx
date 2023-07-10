@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <Spawn isVisible={isVisible}>
-      <div className="mt-[5%] w-[100vw] flex justify-center text-3xl">My Portfolio!</div>
+      <div className="mt-[5%] w-[100vw] flex justify-center text-3xl">Arthur | Dev Fullstack!</div>
       <Link href="/frontend" onClick={goToFrontend}>
         <div className="group flex items-center justify-center absolute w-[50vw] h-[100vh] left-0 top-0">
           <h1 className="text-2xl group-hover:text-4xl ease-in-out duration-300 pb-1 px-3 border-b-[2px]">Front-End</h1>
